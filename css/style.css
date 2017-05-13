@@ -373,6 +373,13 @@
 	color: #7f8c8c;
 	font-weight: 800;
 }
+.txt {
+    font-size: 13px;
+    color: #777;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
 .about-proj p{
 	font-size: 13px;
 	color: #777;
