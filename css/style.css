@@ -85,6 +85,7 @@
     top: 70px;
     right: 0;
     z-index: 11111;
+    border-radius: 5px;
 }
 .menu ul{
     margin: 0;
@@ -92,17 +93,27 @@
     list-style: none;
 }
 .menu a{
+	font-size: 13;
     display: block;
-    padding: 13px 0px 13px 9px;
+    padding: 10px 9px 10px 9px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     border-bottom: 1px solid rgba(255,255,255,0.7);
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    border-radius: 4px;
 }
 .menu li:last-child a{
     border: none;
+}
+.menu li{
+	position: relative;
+}
+.menu .in-menu{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 /*end header*/
 .slider-1 img, .slider-2 img{
@@ -124,8 +135,6 @@
     left: 50%;
     margin-left: -128px;
     top: 14.9%;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: 400;
 }
 .slider-1 .slick-arrow{
 	position: absolute;
@@ -228,7 +237,7 @@
 }
 .service span{
 	display: block;
-	font-size: 12px;
+	font-size: 13px;
 	color: #777777;
 	font-weight: 400;
 	padding: 0 0 0 0;
@@ -260,11 +269,12 @@
 }
 .icons-serv{
 	padding: 0;
-	margin: 0 33% 0 33%;
+	margin: 0 0 0 0;
+	text-align: center;
 }
 .icons-serv a{
 	display: inline-block;
-	padding: 70px 0 0 0;
+	padding: 0px 0 0 0;
 	margin: 0 0 36px 0;
 	font-size: 16px;
 	color: #7f8c8c;
@@ -272,17 +282,13 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
-.icon1{
-	background: url(../img/icons.png) 27px 1px no-repeat;
+.icons-serv a:hover .ic{
+	color: #e8645a;
 }
-.icon2{
-	background: url(../img/icons.png)  -289px 0px no-repeat;
-}
-.icon3{
-	background: url(../img/icons.png) -582px 0px no-repeat;
-}
-.icon4{
-	background: url(../img/icons.png) -879px 0px no-repeat;
+.ic{
+	display: block;
+	font-size: 60px;
+	color: #62bdbd;
 }
 .services-bl p{
 	font-size: 13px;
@@ -305,6 +311,10 @@
   bottom: -30px;
   left: 50%;
   margin-left: -100px;
+}
+.read-m:hover{
+	background: #e8645a;
+	border-color: #e2534b;
 }
 .whymodus-block{
 	background: #ececec;
@@ -412,4 +422,137 @@
   padding: 0 0 0 0;
   margin: 0 0 0 60px;
   font-weight: 400;
+}
+/*end content*/
+.blue-block{
+	background: #76c7c0;
+	padding: 0 0 80px 0;
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #6ab3ac;
+}
+.line2{
+	background: url(../img/blue-background.jpg);
+	display: inline-block;
+	width: 100%;
+	height: 17px;
+	margin: 0;
+	padding: 0;
+}
+.block-modus {
+	padding: 0 20px 0 20px;
+	margin: 0 0 60px 0;
+}
+.block-modus h4{
+	padding: 0;
+	margin: 60px 0 20px 0;
+	font-size: 30px;
+	color: #497e79;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.block-modus h4>span{
+	font-size: 25px;
+	text-transform: none;
+	font-weight: 400;
+	color: #497e79;
+}
+.block-modus p{
+	font-size: 13px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
+
+}
+.block-modus div>p{
+	margin: 0 0 0 0;
+}
+.block-modus div p>span{
+	margin: 0 0 0 20px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+.company{
+	margin: 0 0 60px 0;
+	padding: 0 20px 0 20px;
+}
+.company h4{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	color: #497e79;
+	font-weight: 700;
+}
+.company ul{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.company li{
+	list-style: none;
+	padding: 0 0 0 10px;
+	margin: 0 0 10px 0;
+
+	background: url(../img/white-arrow.png) 0px 5px no-repeat;
+}
+.company li>a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 400;
+}
+.blog{
+	padding: 0 20px 0 20px;
+	margin: 0 0 60px 0;
+}
+.blog h4{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	color: #497e79;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.blog h4>span{
+	padding: 0 0 0 0;
+	margin: 0 0 0 20px;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: none;
+}
+.blog div>img{
+	vertical-align: middle;
+  margin: 0 20px 20px 0;
+}
+.blog div>p{
+	display: inline-block;
+	padding: 10px 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 400;
+	width: 50%;
+	vertical-align: top;
+}
+.blog div p>i{
+	display: block;
+	color: #55928d;
+	font-weight: 400;
+	font-style: normal;
+}
+/*end blue-block*/
+.footer{
+	min-height: 48px;
+	padding: 15px 0 15px 0;
+	background: #dadada;
+}
+.footer p{
+	font-size: 12px;
+	color: #777;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 }

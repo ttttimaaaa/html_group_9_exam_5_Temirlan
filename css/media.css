@@ -1,6 +1,208 @@
-@media screen and (min-width: 1174px){
-	body{
-		min-width: 320px;
+@media screen and (min-width: 660px){
+	.slide-info p{
+		margin-left:23%;
 	}
+	.slide-info {
+		margin-left: -178px;
+	}
+		.company{
+		display: inline-block;
+	}
+	.blog{
+		display: inline-block;
+		float: right;
+	}
+}
+@media screen and (min-width: 820px){
+		.slide-info p{
+		margin-left:33%;
+	}
+		.slide-info {
+		margin-left: -228px;
+	}
+	.choose-us{
+		display: inline-block;
+	}
+	.about-proj{
+		width: 60%;
+		display: inline-block;
+		float: right;
+	}
+}
+@media screen and (min-width: 1020px){
+		.slide-info p{
+		margin-left:15%;
+		font-size: 50px;
+	}
+	.slide-info {
+    margin-left: -278px;
+  }
+	.slide-info>span{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.service span{
+		width: 70%;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.view-m{
+    width: initial;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    padding: 18px 30px 14px 30px
+	}
+	.service{
+		padding-right: 0px;
+	}
+	.services-bl {
+		width: 40%;
+		display: inline-block;
+		margin: 0 0 10% 6%;
+		vertical-align: top;
+	}
+}
+@media screen and (min-width: 1174px){
+	.menu-btn{
+		display: none;
+	}
+	.menu{
+		position: static;
+		width: auto;
+		background: transparent;
+		display: block ! important;
+	}
+	.menu ul{
+    padding: 19px 119px 0 0px;
+    float: right;
+	}
+	.menu li{
+display: inline-block;
+    margin: 0 14px 0 0;
+	}
+	.menu li:last-child{
+		margin: 0;
+	}
+	.menu a{
+		color: #fff;
+		display: inline-block;
+		border: none;
+		font-size: 14px;
+	}
+	.menu a:hover{
+		background: #e8645a;
+		border-bottom: 4px solid #e2534b;
+   padding: 10px 9px 10px 9px;
+	}
+	.logo a>span{
+		margin: 0 0 0 -4px;
+	}
+	.slide-info {
+    top: 148px;
+    margin-left: -300px;
+    margin-bottom: 5px;
 
+  }
+.slide-info p {
+    margin-left: 15%;
+    font-size: 50px;
+    padding: 0px 8px 0px 7px;
+    letter-spacing: -1px;
+        padding: 3px 20px 0 20px;
+}
+.slide-info>span{
+	width: 80%;
+}
+.slider-1 img{
+    width: 100%;
+    height: 100%;
+}
+.service{
+	position: relative;
+    margin-bottom: 40px;
+}
+.service p{
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.view-m{
+    position: absolute;
+    top: 13px;
+    right: 99px;
+    padding: 13px 45px 13px 45px;
+}
+.services-bl{
+	width: 270px;
+    margin: 0 86px 65px 0;
+}
+.last{
+	margin-right: 0;
+}
+.whymodus-block{
+	padding-left: 0;
+	padding-right: 0;
+}
+.whymodus-block h3{
+    font-size: 40px;
+    margin-top: 37px;
+    margin-right: 70px;
+}
+.txt{
+	font-size: 13px;
+	color: #777;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.choose-us{
+	float: left;
+	    margin-right: 101px;
+}
+.about-proj{
+	width: 525px;
+	float: left;
+	    margin-right: 180px;
+}
+.clients-say{
+	width: 277px;
+	display: inline-block;
+	padding: 0;
+}
+.block-modus{
+	width: 370px;
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+.company{
+	width: 100px;
+	display: inline-block;
+	float: left;
+	margin-right: 100px: 
+}
+.company h4{
+	margin-top: 60px;
+}
+.blog{
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+}
+.blog h4{
+	margin-top: 60px;
+}
+.blog div>p{
+	width: 70%;
+}
+.blue-block{
+	overflow: hidden;
+}
+.footer{
+	clear: both;
+}
+.footer p{
+	margin-left: 10px;
+	text-align: left;
+}
 }
